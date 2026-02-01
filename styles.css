@@ -1,0 +1,68 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colorful page background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White card */
+.container {
+  background: white;
+  padding: 40px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Highlight name */
+.name {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Paragraph */
+p {
+  font-size: 17px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* Button */
+button {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  margin-top: 25px;
+  color: #888;
+  font-size: 14px;
+}
